@@ -9,9 +9,10 @@ public class Ass1_Calculator
 		Scanner sc= new Scanner(System.in);
 		while(cont=='y' || cont =='Y')
 		{
-			System.out.println("\nWhich operation do you want to perform?\n 1. Addition \n 2. Subtraction\n 3. Multiplication\n 4. Division(Answer with Quotient and Remainder)\n 5. Division(Answer in Decimals)\n");
+			System.out.println("\nWhich operation do you want to perform?\n 1. Addition \n 2. Subtraction\n 
+			3. Multiplication\n 4. Division(Answer with Quotient and Remainder)\n 5. Division(Answer in Decimals)\n");
 			System.out.println("Enter your choice : ");
-			int choice=sc.nextInt();
+			int choice=sc.nextInt(); //xx
 			if (choice == 1 || choice ==2 || choice ==3 || choice ==4 || choice ==5)
 			{
 				System.out.println("Enter Number 1 : ");
@@ -39,11 +40,12 @@ public class Ass1_Calculator
 			while( cont !='y' && cont!='Y' && cont!='n' && cont!='N')
 			{
 				System.out.println("Enter valid choice, y or n : ");
-				cont=sc.next().charAt(0);}
+				cont=sc.next().charAt(0);
 			}
-			System.out.println("THANK YOU FOR USING MY CALCULATOR!");
-			sc.close();	
+			
 		}
+		    System.out.println("THANK YOU FOR USING MY CALCULATOR!");
+			sc.close();	
 	}
 }
 	
